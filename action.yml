@@ -2,7 +2,7 @@ name: "actions-env"
 description: "Create ENV File using GitHub Actions with GitHub's Secret"
 author: "Jericho Aquino"
 branding:
-  icon: "settings"
+  icon: "box"
   color: "blue"
 inputs:
   file:
@@ -13,6 +13,11 @@ inputs:
     description: "Prefix for secret"
     required: false
     default: "ENV_"
+  env:
+    description: "Environment variables"
+    required: false
+    default: ""
 runs:
   using: "node16"
   main: "index.js"
+  
