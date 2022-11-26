@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
          - name: Create .env file
-           uses: eru123/actions-env@v0.0.4
+           uses: skiddph/actions-env@v1
            with:
             file: .env # default | a path or filename
             prefix: 'ENV_' # default | must be uppercase
