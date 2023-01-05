@@ -25,10 +25,10 @@ jobs:
 
 Example `.env` file:
 ```env
-VAR1=value
-VAR2=value
-VAR3=value
-VAR4=value
+VAR1="value"
+VAR2="value"
+VAR3="value"
+VAR4="value"
 ```
 
 # Inputs
